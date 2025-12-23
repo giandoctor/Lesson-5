@@ -1,9 +1,8 @@
-cost_price=float(input("Enter the cost prices of oranges:"))
-sell_price=float(input("Enter the sell price of the oranges:"))
-if sell_price > cost_price:
-    profit=sell_price-cost_price
-    print("The profit is:",profit)
+CP=float(input("Enter the cost price of oranges:"))
+SP=float(input("Enter the sell price of oranges:"))
+PL=SP-CP
+if PL>0:
+    print("There is a profit of:",PL)
 else:
-    Loss=cost_price-sell_price
-    print("The loss is:",Loss)
+    print("There is a loss of:",PL)
 
